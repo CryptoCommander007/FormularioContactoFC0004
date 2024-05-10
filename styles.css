@@ -1,0 +1,92 @@
+/************************************************************************************************************/
+/************************************************************************************************************/
+/*******************************ESTILOS FORMULARIO DE CONTACTO FC0004 ***************************************/
+/************************************************************************************************************/
+/************************************************************************************************************/
+
+/* Estilo para los elementos de la lista de información de contacto */
+.FC0003-container {
+    background: linear-gradient(to right, #44be54 20%, #5438bd 80%);
+}
+
+.FC0003-contact-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Estilo para el título "Información de Contacto" */
+.FC0003-contact-info h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los elementos de la lista de información de contacto */
+.FC0003-contact-info ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.FC0003-contact-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Estilo para el título "Envía un mensaje" */
+.FC0003-contact-form h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los campos de entrada y textarea del formulario */
+.FC0003-contact-form input[type="text"],
+.FC0003-contact-form input[type="email"],
+.FC0003-contact-form textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+/* Estilo para el botón "Enviar Mensaje" */
+.FC0003-contact-form button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #042a53;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para los enlaces en la información de contacto */
+.FC0003-contact-info a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Estilo para los enlaces al pasar el ratón en la información de contacto */
+.FC0003-contact-info a:hover {
+    color: #0056b3;
+}
